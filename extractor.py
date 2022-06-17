@@ -1,4 +1,4 @@
-from keras.preprocessing import image
+from tensorflow.keras.preprocessing import image
 from keras.applications.inception_v3 import InceptionV3, preprocess_input
 from keras.models import Model, load_model
 from keras.layers import Input

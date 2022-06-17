@@ -31,7 +31,7 @@ def extract_files():
         class_folders = glob.glob(os.path.join(folder, '*'))
 
         for vid_class in class_folders:
-            class_files = glob.glob(os.path.join(vid_class, '*.avi'))
+            class_files = glob.glob(os.path.join(vid_class, '*.mov'))
 
             for video_path in class_files:
                 # Get the parts of the file.
